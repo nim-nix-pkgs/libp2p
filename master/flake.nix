@@ -20,6 +20,13 @@
   inputs."nimcrypto".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimcrypto".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."dnsclient".owner = "nim-nix-pkgs";
+  inputs."dnsclient".ref   = "master";
+  inputs."dnsclient".repo  = "dnsclient";
+  inputs."dnsclient".type  = "github";
+  inputs."dnsclient".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."dnsclient".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   inputs."bearssl".owner = "nim-nix-pkgs";
   inputs."bearssl".ref   = "master";
   inputs."bearssl".repo  = "bearssl";
