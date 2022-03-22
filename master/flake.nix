@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-libp2p-master.flake = false;
+  inputs.src-libp2p-master.ref   = "refs/heads/master";
   inputs.src-libp2p-master.owner = "status-im";
-  inputs.src-libp2p-master.ref   = "master";
   inputs.src-libp2p-master.repo  = "nim-libp2p";
   inputs.src-libp2p-master.type  = "github";
   

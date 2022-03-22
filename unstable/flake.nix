@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-libp2p-unstable.flake = false;
+  inputs.src-libp2p-unstable.ref   = "refs/heads/unstable";
   inputs.src-libp2p-unstable.owner = "status-im";
-  inputs.src-libp2p-unstable.ref   = "unstable";
   inputs.src-libp2p-unstable.repo  = "nim-libp2p";
   inputs.src-libp2p-unstable.type  = "github";
   
