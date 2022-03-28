@@ -11,7 +11,6 @@
   inputs.src-libp2p-master.ref   = "refs/heads/master";
   inputs.src-libp2p-master.owner = "status-im";
   inputs.src-libp2p-master.repo  = "nim-libp2p";
-  inputs.src-libp2p-master.dir   = "";
   inputs.src-libp2p-master.type  = "github";
   
   inputs."nimcrypto".owner = "nim-nix-pkgs";

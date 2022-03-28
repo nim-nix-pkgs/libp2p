@@ -11,7 +11,6 @@
   inputs.src-libp2p-unstable.ref   = "refs/heads/unstable";
   inputs.src-libp2p-unstable.owner = "status-im";
   inputs.src-libp2p-unstable.repo  = "nim-libp2p";
-  inputs.src-libp2p-unstable.dir   = "";
   inputs.src-libp2p-unstable.type  = "github";
   
   inputs."nimcrypto".owner = "nim-nix-pkgs";
