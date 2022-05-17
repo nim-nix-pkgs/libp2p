@@ -19,6 +19,7 @@
     "refs/heads/documentation",
     "refs/heads/exceptions",
     "refs/heads/exposed-addrs",
+    "refs/heads/fasterci2",
     "refs/heads/fastergsci",
     "refs/heads/feat/async-iter",
     "refs/heads/feat/create-streaming-tutorial",
