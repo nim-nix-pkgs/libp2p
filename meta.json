@@ -70,7 +70,6 @@
     "refs/heads/unstable",
     "refs/heads/variouscleanups2",
     "refs/heads/work-stealing-deadlock",
-    "refs/heads/yamux",
     "refs/heads/zahary-wip",
     ""
   ],
